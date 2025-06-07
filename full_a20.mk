@@ -10,9 +10,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/a20/device.mk)
 
-# Inherit LineageOS common device config
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 BUILD_FINGERPRINT := "samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
